@@ -1,0 +1,16 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"variables": {
+			"sheet": {
+				"type": "Array",
+				"defaultValue": [
+					"orders",
+					"stores",
+					"taxrate"
+				]
+			}
+		},
+		"annotations": []
+	}
+}
