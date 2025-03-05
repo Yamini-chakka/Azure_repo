@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1",
+	"name": "for_each_pipeline",
 	"properties": {
 		"activities": [
 			{
@@ -84,9 +84,9 @@
 			"sheet": {
 				"type": "Array",
 				"defaultValue": [
-					"orders",
-					"stores",
-					"taxrate"
+					"Orders",
+					"Stores",
+					"TaxRates"
 				]
 			}
 		},
