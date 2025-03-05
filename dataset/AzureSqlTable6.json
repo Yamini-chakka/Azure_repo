@@ -5,12 +5,20 @@
 			"referenceName": "sqldata",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"tables": {
+				"type": "String"
+			}
+		},
 		"annotations": [],
 		"type": "AzureSqlTable",
 		"schema": [],
 		"typeProperties": {
 			"schema": "schema3",
-			"table": "table8"
+			"table": {
+				"value": "@dataset().tables",
+				"type": "Expression"
+			}
 		}
 	}
 }
