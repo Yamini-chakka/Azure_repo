@@ -1,0 +1,24 @@
+{
+	"name": "AzureSqlTable14",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Stored_procedure": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "schema3",
+			"table": {
+				"value": "@dataset().Stored_procedure",
+				"type": "Expression"
+			}
+		}
+	}
+}

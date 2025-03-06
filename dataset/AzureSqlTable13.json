@@ -1,0 +1,24 @@
+{
+	"name": "AzureSqlTable13",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"stored": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "schema3",
+			"table": {
+				"value": "@dataset().stored",
+				"type": "Expression"
+			}
+		}
+	}
+}

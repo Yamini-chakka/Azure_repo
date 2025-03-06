@@ -1,0 +1,24 @@
+{
+	"name": "AzureSqlTable15",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"userinfo": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "schema3",
+			"table": {
+				"value": "@dataset().userinfo",
+				"type": "Expression"
+			}
+		}
+	}
+}
