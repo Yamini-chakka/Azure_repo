@@ -1,0 +1,29 @@
+{
+	"name": "AzureSqlTable8",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "orderId",
+				"type": "nvarchar"
+			},
+			{
+				"name": "productid",
+				"type": "nvarchar"
+			},
+			{
+				"name": "quantity",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "schema3",
+			"table": "table10"
+		}
+	}
+}

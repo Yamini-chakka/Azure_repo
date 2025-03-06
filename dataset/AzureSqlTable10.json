@@ -1,0 +1,24 @@
+{
+	"name": "AzureSqlTable10",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqldata",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"table15": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "schema3",
+			"table": {
+				"value": "@dataset().table15",
+				"type": "Expression"
+			}
+		}
+	}
+}
