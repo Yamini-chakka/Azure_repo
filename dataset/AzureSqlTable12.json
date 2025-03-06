@@ -1,0 +1,30 @@
+{
+	"name": "AzureSqlTable12",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"schema3": {
+				"type": "string"
+			},
+			"table17": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().schema3",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().table17",
+				"type": "Expression"
+			}
+		}
+	}
+}
