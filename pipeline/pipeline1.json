@@ -1,0 +1,16 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"parameters": {
+			"array": {
+				"type": "array",
+				"defaultValue": [
+					"CUSTOMERS",
+					"PRODUCTS",
+					"TRANSACTIONS"
+				]
+			}
+		},
+		"annotations": []
+	}
+}

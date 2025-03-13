@@ -1,0 +1,16 @@
+{
+	"name": "SnowflakeCustomerDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Snowflake1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SCHEMA",
+			"table": "TRANSACTIONS"
+		}
+	}
+}
