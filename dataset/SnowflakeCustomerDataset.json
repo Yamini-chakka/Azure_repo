@@ -9,8 +9,8 @@
 		"type": "SnowflakeV2Table",
 		"schema": [],
 		"typeProperties": {
-			"schema": "SCHEMA",
-			"table": "TRANSACTIONS"
+			"schema": "RAW",
+			"table": "CUSTOMERS"
 		}
 	}
 }
