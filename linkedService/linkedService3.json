@@ -1,0 +1,11 @@
+{
+	"name": "linkedService3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"sasUri": "https://demoaccount3.blob.core.windows.net/?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-03-14T21:52:00Z&st=2025-03-14T13:52:00Z&spr=https&sig=xR6%2Bp8e0KNBEG2q96H5bRhbwcEW5Hqdu1MJUHveWnzc%3D?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-03-14T21:52:00Z&st=2025-03-14T13:52:00Z&spr=https&sig=xR6%2Bp8e0KNBEG2q96H5bRhbwcEW5Hqdu1MJUHveWnzc%3D"
+		}
+	}
+}
